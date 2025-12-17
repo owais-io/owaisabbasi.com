@@ -1,0 +1,13 @@
+# Exclude all files by default
+*
+
+# But include these specific files
+!.gitignore
+!index.html
+!1754483927740.jpg
+!Owais_Abbasi_CV.pdf
+
+# Include GitHub Actions workflow
+!.github/
+!.github/workflows/
+!.github/workflows/deploy.yml
